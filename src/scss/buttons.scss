@@ -1,0 +1,23 @@
+.btn {
+  line-height: 1;
+  border: 0;
+  outline: none;
+  color: $white;
+  padding: 1rem 3rem;
+  background: $gray;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: $blue;
+}
+
+.btn-danger {
+  background: $red;
+}
+
+.btn-link {
+  background: transparent;
+  color: $gray;
+}

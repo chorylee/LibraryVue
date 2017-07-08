@@ -1,0 +1,15 @@
+{
+  "compact": false,
+  "presets": [
+    ["es2015", {
+      "modules": false
+    }],
+    "stage-2"
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "helpers": false,
+      "polyfill": false
+    }]
+  ]
+}

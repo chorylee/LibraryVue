@@ -1,0 +1,37 @@
+html {
+  font-size: 62.5%;
+}
+
+body,
+input,
+textarea,
+select {
+  font-family: $font-family-body;
+  font-size: 1.5rem;
+  color: $gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-header;
+  font-weight: 200;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $gray;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 1.5rem
+  }
+}

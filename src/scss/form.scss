@@ -1,0 +1,28 @@
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+
+  .has-error & {
+    color: $red;
+  }
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  border: 0.1rem solid $gray-light;
+  border-radius: 0.4rem;
+
+  .has-error & {
+    border-color: $red;
+  }
+}
+
+.form-group:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.has-error {
+  color: $red;
+}
