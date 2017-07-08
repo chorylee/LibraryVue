@@ -37,6 +37,7 @@
   },
   "false": {},
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "vee-validate": "^2.0.0-rc.6",
     "vue": "^2.3.4",
     "vue-input-tag": "0.0.11",

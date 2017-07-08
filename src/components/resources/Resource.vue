@@ -91,8 +91,8 @@
     color: $white;
   }
 
-  .resource-body {
-    flex: 1;
+  .resource-footer {
+    margin-top: auto;
   }
 
   .resource-link {

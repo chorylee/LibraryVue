@@ -4,7 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: {
-    app: path.resolve(__dirname, 'src/index.js')
+    app: [
+      'babel-polyfill',
+      path.resolve(__dirname, 'src/index.js')
+    ]
   },
   output: {
     filename: '[name].[hash].js',
