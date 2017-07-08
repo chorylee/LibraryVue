@@ -24,7 +24,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new CleanWebpackPlugin(path.resolve(__dirname, 'dist'))
+    new CleanWebpackPlugin(path.resolve(__dirname, 'dist')),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
       minChunks: module => module.context && module.context.includes('node_modules')
