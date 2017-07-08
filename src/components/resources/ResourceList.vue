@@ -48,6 +48,5 @@
 
   .no-resources {
     text-align: center;
-    margin: auto;
   }
 </style>
